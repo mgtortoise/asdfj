@@ -1,6 +1,7 @@
 sudo apt install nginx -y
 sudo apt install wget -y
-rm -rf /etc/nginx/sites-enabled/default
+rm -rf /etc/nginx/sites-enabled/defaultdefault 
+mkdir /etc/nginx/sites-enabled/
 wget https://raw.githubusercontent.com/mgtortoise/asdfj/main/default
 mv default /etc/nginx/sites-enabled/default
 cd ..
