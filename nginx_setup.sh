@@ -6,4 +6,6 @@ wget https://raw.githubusercontent.com/mgtortoise/asdfj/main/default
 mv default /etc/nginx/sites-enabled/default
 cd ..
 nano /etc/nginx/sites-enabled/default
+systemctl restart nginx
+netstat -tulpn
 
